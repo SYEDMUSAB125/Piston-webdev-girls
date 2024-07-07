@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* there are four ways to assign color any element  */
+        /* color name 
+        color hexcode 
+        color rgb
+        hsl hue saturation luminance 
+        
+        */
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            border: 2px solid black;
+            height: 500px;
+            display: flex;
+            /* flex-direction: row-reverse; */
+            /* justify-content:  center; */
+            /* justify-content: flex-end; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            justify-content: center;
+
+            align-items: center;
+            /* align-content: center; */
+            gap: 2px;
+            /* flex-wrap: wrap; */
+            /* align-items: center; */
+            /* flex-grow: 3; */
+            
+        }
+        .items{
+            background-color: purple;
+            height: 70px;
+            width: 70px;
+            /* margin: 2px; */
+            /* border-radius: 50%; */
+            
+           
+        }
+        /* #first{
+            align-self: self-end;
+        } */
+         .item{
+            /* flex-grow: 3; */
+            flex-shrink: 3;
+            order:1;
+         }
+         .second{
+            order: 1;
+         }
+         .color{
+            /* background-color: rgba(0 ,0, 0 ,1); */
+            /* \0-9/ A  B C D E F */
+            background-color: #82BA13;
+            /* box shadow  */
+            /* box-shadow: horizontaloffset verticaloffset blur spread color ; */
+            box-shadow: 2px 3px 3px 1px #888888 ;
+            height: 90px;
+            width: 90px;
+           margin: 90px auto;
+         }
+         h1{
+            text-transform: capitalize;
+            color: #000000;
+            /* text-shadow: horizontal vertical blur color ; */
+            text-shadow: 2px 3px 1px #888888;
+
+         }
+    </style>
+</head>
+<body>
+   <!-- <div class="container">
+    <div class="items item" id="first" >1</div>
+    <div class="items second">2</div>
+    <div class="items">3</div>
+    <div class="items">4</div>
+    <div class="items"></div>
+    <div class="items"></div> -->
+    <!-- <div class="color" ></div> -->
+    <!-- <h1>sample text</h1> -->
+     <h1>education</h1>
+     <hr>
+     <h1>skills</h1>
+     <hr>
+     <ul>
+        <li>2</li>
+        <li>2</li>
+       
+     </ul>
+   
+   </div>
+</body>
+</html>
