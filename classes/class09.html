@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        div{
+            border: 2px solid #000;
+            height: 1800px;
+            width:700px;
+            margin: auto;
+            /* overflow: hidden; */
+            /* overflow-y: auto; */
+            /* position: relative; */
+        }
+        /* overflow: hidden; */
+      
+        .box1{
+            height: 40px;
+            width: 40px;
+            background-color: aqua;
+            margin: 2px;
+            position: fixed;
+            right: 20px;
+            bottom:50vh;
+           
+            /* position: relative; */
+            /* position: absolute;   */
+            /* left:50px;
+            bottom: 0px;
+            z-index: 2; */
+            /* top:0px; */
+            /* left: 34px;
+            top: 30px; */
+            /* float: left;
+            overflow: hidden; */
+            /* z-index: 2; */
+        }
+        .box2{
+            height: 20vh;
+            width: 60vw;
+            background-color: rgb(234, 56, 15);
+            margin: 2px;
+            position: sticky;
+         /* right: 20px;
+         bottom: 30vh; */
+         top: 0px;
+            /* position: relative ;
+            z-index: 1; */
+        }
+        .box3{
+            height: 20vh;
+            width: 60vw;
+            background-color: rgb(174, 255, 0);
+            margin: 2px;
+        }
+        .box4{
+            height: 20vh;
+            width: 60vw;
+            background-color: rgb(255, 0, 200);
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>

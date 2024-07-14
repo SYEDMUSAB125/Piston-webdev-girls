@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+   <style>
+    .box{
+        /* display:none; */
+        background-color: lightblue;
+        display: none;
+    }
+    
+   @media only screen and (max-width: 480px){
+        .box1{
+            background-color: rgb(227, 109, 50);
+            display: block;
+            
+        }
+
+   }
+    @media only screen and (min-width:481px) and (max-width: 768px ) {
+        .box2{
+            display: block;
+            background-color: rgb(172, 28, 40);
+        }
+    }
+    @media only screen and (min-width: 769px) and (max-width: 982px) {
+        .box3{
+            display: block;
+            background-color: rgb(140, 245, 20);
+        }
+    }
+    @media only screen and (min-width: 983px){
+        .box4{
+            display: block;
+            background-color: rgb(34, 62, 154);
+        }
+    }
+    div{
+        height: 100vh;
+        width: 100vw;
+        /* background-color: red;
+        clip-path: polygon(51% 86%, 66% 0, 100% 35%, 80% 56%, 80% 90%, 50% 100%, 10% 90%, 28% 58%, 0% 35%, 37% 0);
+        filter: invert(10); */
+        background-image: url("../wave-haikei.png");
+        background-repeat: no-repeat;
+    }
+   </style>
+</head>
+<body>
+    <!-- <div>
+        <div class="box box1">me aik mobile ho</div>
+        <div class="box box2">me aik tablet ho</div>
+        <div class="box box3">me aik laptop ho</div>
+        <div class="box box4">me aik widescreen ho</div>
+    </div> -->
+    <div>
+
+    </div>
+</body>
+</html>
