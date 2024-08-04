@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    /* variable in css */
+    /* global variable */
+    :root{
+        --primary-color:#e41ec6b1;
+        --secondary-color:#2dddd7; 
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: var(--primary-color);
+      
+    }
+    #container{
+        height: 500px;
+        width: 100vw;
+        background-color: var(--secondary-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .box:hover{
+        transform: scale(1.9);
+        background-color: blanchedalmond;
+      /* property name , duration, timig function */
+        transition: all 2s ease-in  ;
+    }
+   </style>
+</head>
+<body>
+   <div id="container">
+    <div class="box">
+
+    </div>
+   </div>
+</body>
+</html>

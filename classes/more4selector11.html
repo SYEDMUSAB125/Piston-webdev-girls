@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+      /* #para::selection{
+        color: red;
+    } */
+     /* descendant selector */
+     /* .container h1{
+        color: red;
+     } */
+      /* .container > h1{
+        color: red;
+      }  */
+      /* :has(p, h1  ) {
+        color: red;
+      }  */
+        .list > :nth-child(odd){
+            background-color: #88bbff;
+        }
+  </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <ul class="list" >
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+    <div class="container">
+        <h1>
+            this is my heading inside div
+        </h1>
+        <h1>
+            this is my heading inside div
+        </h1>
+        <div class="inside">
+            <h1>this is very inside div</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, omnis.</p>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, odit!</p>
+
+          <!-- <h1>
+        this is first heading
+    </h1>
+    <p id="para" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptate ex cum architecto fugiat! Recusandae pariatur nostrum veniam, tenetur expedita ad nam, quidem perferendis vel beatae temporibus mollitia aut ea deleniti eligendi! Veniam, corrupti.
+    </p> -->
+    </div>
+</body>
+</html>
