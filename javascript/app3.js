@@ -35,7 +35,7 @@ console.log(a)
 // quiz 
 // netflix
 // switch case
-// me shapat leti ho din me 5 video daikhogi
+// 5 video daily javascript
 
 
 
