@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .head {
+        background-color: black;
+        color: white;
+      }
+      .font {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      span {
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+      .like {
+        background-color: red;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* animation:  duration timing-function delay iteration-count direction fill-mode;   */
+        animation: likebtn 3s ease-in-out 1s infinite;
+      }
+      @keyframes likebtn {
+        to {
+          transform: scale(1);
+        }
+        from {
+          transform: scale(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+ 
+    <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore expedita aliquid, perferendis quam similique adipisci, officia necessitatibus in at totam, eius architecto repellendus. Accusamus sapiente deleniti corrupti libero veritatis nesciunt....... <span>read more</span></h1> -->
+ 
+    <!-- <input type="password" name="" id="">
+    <button>
+        👀
+    </button> -->
+
+    <div>double tap to see jadduuu.. </div>
+    
+    <script src="../javascript/Dom.js"></script>
+
+    
+  </body>
+</html>
