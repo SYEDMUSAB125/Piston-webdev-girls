@@ -1,0 +1,25 @@
+. Portfolio WebsiteShowcase your projects, skills, and resume with smooth scrolling and animations.
+2. Quiz AppMultiple-choice quiz with scoring and feedback.
+3. To-Do ListCreate, mark, and delete tasks with local storage for persistence.
+4. Weather AppUse an API to fetch and display current weather for any city.
+5. Memory GameMatch pairs of cards using JavaScript DOM manipulation.
+6. CalculatorA basic calculator for arithmetic operations with JavaScript logic.
+7. Recipe Search AppFetch and display recipes based on an ingredient search using an API
+.8. Interactive Landing PageCreate a landing page with animations, hover effects, and scrolling
+.9. Personal BlogBuild a simple blog with a clean layout and dynamic JavaScript elements like comments
+.10. E-commerce Product PageCreate a product listing page with a shopping cart and total price calculation.
+11. Expense TrackerTrack your expenses and display totals using local storage to save data.
+12. Notes AppAdd, edit, and delete notes. Store them in local storage.
+13. Countdown TimerCreate a timer that counts down to a specific date and time.
+14. Image SliderA simple image slider with previous/next buttons and auto-slide functionality.
+15. Movie Search AppFetch movie data from an API and display it along with ratings and summaries.
+16. Custom Audio PlayerBuild an HTML5 audio player with custom controls using JavaScript.
+17. Form ValidatorCreate a registration form with real-time validation for fields like email and password.
+18. Typing Speed TestMeasure how fast a user types with a timer and word counter.
+19. Currency ConverterFetch exchange rates using an API and allow users to convert between currencies.
+20. Digital ClockCreate a real-time digital clock with date and time display.
+21. Random Quote GeneratorFetch and display random quotes using an API or hardcoded quotes.
+22. Drag-and-Drop Task BoardA task management app where users can drag and drop tasks into different columns (e.g., To Do, In Progress, Done).
+23. Temperature ConverterConvert between Fahrenheit, Celsius, and Kelvin with JavaScript.
+24. User Authentication FormSimulate a login and signup form with real-time validation and visual feedback.
+25. Trivia GameCreate a trivia game with a set of questions and answers, keep track of the score.
